@@ -6,10 +6,8 @@ const { app, BrowserWindow } = electron
 let mainWindow
 
 app.on('ready', _ => {
-  mainWindow = new BrowserWindow({
-    width: 600,
-    height: 350
-  })
+  mainWindow = new BrowserWindow()
+  mainWindow.maximize()
 
   mainWindow.loadURL(`file://${__dirname}/index.html`)
   
