@@ -1,29 +1,38 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Sorte grande é um app desktop perfeito para você que faz sorteios.
 
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* App Desktop para sortear números
+* v1.0
 
-### How do I get set up? ###
+### Como configurar? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+* Clone este repositório 
+```
+git clone https://github.com/diegohideky/sorte-grande
+```
+* Instale dependencias
+```
+npm i
+```
+* Rode o app
+```
+npm start
+```
+* Gere os executáveis
+```
+npm run package:mac //para Mac
+npm run package:win //para Windows
+npm run package:linux //para Linux
+```
 
-### Contribution guidelines ###
+### Contribuições ###
 
-* Writing tests
-* Code review
-* Other guidelines
+* Diego Hideky
 
-### Who do I talk to? ###
+### Com quem você fala? ###
 
-* Repo owner or admin
-* Other community or team contact
+* Diego Hideky
+https://github.com/diegohideky
